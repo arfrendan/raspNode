@@ -1,0 +1,30 @@
+{
+  "name": "battery-service",
+  "version": "0.1.0",
+  "description": "BLE (Bluetooth Low Energy) Battery Service",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "author": {
+    "name": "Don Coleman",
+    "url": "https://github.com/don"
+  },
+  "dependencies": {
+    "baidu-aip-sdk": "^2.3.9",
+    "bleno": ">0.1.4",
+    "blob": "0.0.5",
+    "iconv-lite": "^0.4.24",
+    "node-uuid": "^1.4.8",
+    "pngjs": "^3.4.0",
+    "quagga": "^0.12.1",
+    "quagga-scanner": "^0.13.0",
+    "usb": "^1.6.0",
+    "v4l2camera": "file:node-v4l2camera",
+    "zbar": "0.0.4"
+  }
+}
