@@ -8,13 +8,22 @@ var bleno = require('bleno');
 var Descriptor = bleno.Descriptor;
 var Characteristic = bleno.Characteristic;
 
+var express = require('express')
+var bodyParse = require('body-parser')
+
 let uuid = guid4();
 var rl = readline.createInterface(
 {   input : process.stdin,
     output : process.stdout
 });
 
-
+exec('python3 /home/pi/httpRequest.py',function(err,stdout,stderr){
+		 console.log('executing')
+		 if(err){
+			 console.log(err) 
+			 console.log(stderr)
+		 }
+})
 var BluetoothSubscribeCharacteristic = function(){
 	BluetoothSubscribeCharacteristic.super_.call(this,{
 		uuid: uuid ,
@@ -35,7 +44,44 @@ BluetoothSubscribeCharacteristic.prototype.onSubscribe = function(maxValueSize, 
     updateValueCallback(new Buffer("ready for barcode scanning!"));
     
     
+    var server = express()
+	server.use(bodyParse.json())
+	server.use(bodyParse.urlencoded({extended:false}))
+	server.post('/',function(request,response){
+		console.log(request.hostname)
+		//console.log(request.body)
+		
+		var code = request.body
+		updateValueCallback(new Buffer(code.code));
+		//console.log(request.hostname)
+		response.send('post')
+	})
+    server.listen(3000)
+	console.log('port 3000')
+    /*
+    exec('python3 /home/pi/evdevTest.py',function(err,stdout,stderr){
+		 console.log('executing')
+		 if(err){
+			 console.log(err) 
+			 console.log(stderr)
+		 }
+		 if(stdout){
+				console.log(stdout);
+				updateValueCallback(new Buffer(stdout));
+				var code = stdout;
+				 exec('python3 /home/pi/printerTest.py  --command '+code,function(err,stdout,stderr){
+                        if(stdout.length>1){console.log(stdout)}
+                        if(err){console.info(stderr)}
+          })
+	 
+		 } 
+		 }) 
+    
+    */
+    
+    /*
 	rl.on('line',function(line){
+		
          let code = line
          console.log("the barcode is: " + code)
          updateValueCallback(new Buffer("code: " + (code? code : "")+'\n'));
@@ -48,10 +94,11 @@ BluetoothSubscribeCharacteristic.prototype.onSubscribe = function(maxValueSize, 
 			if(err){ return console.error(err)}
 			console.log("infile: " +data.toString())
          })
-	 exec('python3 /home/pi/printerTest.py  --command '+code,function(err,stdout,stderr){
-                        if(stdout.length>1){console.log(stdout)}
-                        if(err){console.info(stderr)}
-          })
+	 }
+         */
+     
+		 
+	/*
          if(line.trim() == 'close'){ 
 			rl.close(); 
          }
@@ -66,11 +113,10 @@ BluetoothSubscribeCharacteristic.prototype.onSubscribe = function(maxValueSize, 
 					console.err(err)
 				}
 			})
-         }                       
-     })	
+         }
+     */                       
+     }
       
-      
-}
 
 BluetoothSubscribeCharacteristic.prototype.onUnsubscribe = function() {
           console.log("Device unsubscribed");
