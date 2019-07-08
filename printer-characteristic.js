@@ -59,6 +59,17 @@ PrinterCharacteristic.prototype.onWriteRequest = function(data, offset, withoutR
                                             if(err){console.info(stderr)}
                                     })
                                     break;
+                                    
+                                case 'clear':
+									fs.unlink('/home/pi/test/input.txt',function(err){
+										if(err) throw err;
+										fs.writeFile('/home/pi/test/input.txt','','utf8',function(err){
+											if(err) throw err;
+											console.log('file cleared')
+											})
+										})
+                                    break;
+                                    
                                 default:
                                 /*
                                     exec('sudo python3 /home/pi/printerTest.py --line '+request ,function(err,stdout,stderr){
@@ -66,7 +77,7 @@ PrinterCharacteristic.prototype.onWriteRequest = function(data, offset, withoutR
                                             if(err){console.info(stderr)}
                                     })
                                     */
-                                    fs.appendFile('/home/pi/test/input.txt', request,function(err){
+                                    fs.appendFile('/home/pi/test/input.txt', request+"\n",function(err){
                                         if(err){
                                             console.err(err)
                                         }

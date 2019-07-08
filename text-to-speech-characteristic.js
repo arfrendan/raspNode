@@ -50,7 +50,7 @@ TTSCharacteristic.prototype.onWriteRequest = function(data, offset, withoutRespo
 					if(err){console.info(stderr)}
 			})	
 			*/
-			exec('sudo python3 /home/pi/voiceGenerator.py --readline '+request ,function(err,stdout,stderr){
+			exec('sudo python3 /home/pi/voiceGenerator.py --readline '+ "'" +request + "'",function(err,stdout,stderr){
                   if(stdout.length>1){console.log(stdout)}
                   if(err){console.info(stderr)}
             })

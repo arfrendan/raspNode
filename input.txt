@@ -1,1 +1,202 @@
-6908946287650;6908946287650;6908946287650;6908946287650;6908946287650;6908946287650;6921168509256;asyouwant6922255451427;6922255451427;123;123456789;
+contentthis is a word
+I have a dream \n
+heyheyheyheyheyheyII
+II
+�
+
+�
+M
+�
+�
+! 0 200 200 600 1
+PAGE-WIDTH 576
+UNDERLINE OFF
+SETBOLD 5
+SETMAG 2 2
+TEXT 4 0 2 8 ���ϰ�
+UNDERLINE OFF
+SETBOLD 0
+SETMAG 1 1
+TEXT 1 0 2 112 �������ڣ�2019-06-21 10:00:09
+UNDERLINE OFF
+TEXT 1 
+0 2 142 ������ţ�6547654195170848768
+LPLINE 2 192 575 192 1
+UNDERLINE OFF
+TEXT 1 0 2 222 ���¿�����ˮ
+UNDERLINE OFF
+TEXT 1 0 306 222           �۸�2.51��
+LPLINE 2 282 575 282 1
+UNDERLINE OFF
+
+TEXT 1 0 2 312 �ϼ�������1��  �ϼƽ�2.51��
+LPLINE 2 362 575 362 1
+UNDERLINE OFF
+TEXT 1 0 137 392 ��ӭ���٣�лл��ˣ�
+PRINT
+
+哦
+哦
+�
+k
+k
+�
+I
+iostream
+oo
+oo
+a
+�
+a
+�
+poi
+�
+�
+application
+b
+{
+U
+Z
+c
+! 0 200 200 600 1
+PAGE-WIDTH 576
+UNDERLINE OFF
+SETBOLD 5
+SETMAG 2 2
+TEXT 4 0 2 8 ���ϰ�
+UNDERLINE OFF
+SETBOLD 0
+SETMAG 1 1
+TEXT 1 0 2 112 �������ڣ�2019-06-21 10:00:09
+UNDERLINE OFF
+TEXT 1 
+0 2 142 ������ţ�6547654195170848768
+LPLINE 2 192 575 192 1
+UNDERLINE OFF
+TEXT 1 0 2 222 ���¿�����ˮ
+UNDERLINE OFF
+TEXT 1 0 306 222           �۸�2.51��
+LPLINE 2 282 575 282 1
+UNDERLINE OFF
+
+TEXT 1 0 2 312 �ϼ�������1��  �ϼƽ�2.51��
+LPLINE 2 362 575 362 1
+UNDERLINE OFF
+TEXT 1 0 137 392 ��ӭ���٣�лл��ˣ�
+PRINT
+
+! 0 200 200 600 1
+PAGE-WIDTH 576
+UNDERLINE OFF
+SETBOLD 5
+SETMAG 2 2
+TEXT 4 0 2 8 ���ϰ�
+UNDERLINE OFF
+SETBOLD 0
+SETMAG 1 1
+TEXT 1 0 2 112 �������ڣ�2019-06-21 10:00:09
+UNDERLINE OFF
+TEXT 1 
+0 2 142 ������ţ�6547654195170848768
+LPLINE 2 192 575 192 1
+UNDERLINE OFF
+TEXT 1 0 2 222 ���¿�����ˮ
+UNDERLINE OFF
+TEXT 1 0 306 222           �۸�2.51��
+LPLINE 2 282 575 282 1
+UNDERLINE OFF
+
+TEXT 1 0 2 312 �ϼ�������1��  �ϼƽ�2.51��
+LPLINE 2 362 575 362 1
+UNDERLINE OFF
+TEXT 1 0 137 392 ��ӭ���٣�лл��ˣ�
+PRINT
+
+�
+�
+�
+/
+�
+! 0 200 200 600 1
+PAGE-WIDTH 576
+UNDERLINE OFF
+SETBOLD 5
+SETMAG 2 2
+TEXT 4 0 2 8 ���ϰ�
+UNDERLINE OFF
+SETBOLD 0
+SETMAG 1 1
+TEXT 1 0 2 112 �������ڣ�2019-06-21 10:00:09
+UNDERLINE OFF
+TEXT 1 
+0 2 142 ������ţ�6547654195170848768
+LPLINE 2 192 575 192 1
+UNDERLINE OFF
+TEXT 1 0 2 222 ���¿�����ˮ
+UNDERLINE OFF
+TEXT 1 0 306 222           �۸�2.51��
+LPLINE 2 282 575 282 1
+UNDERLINE OFF
+
+TEXT 1 0 2 312 �ϼ�������1��  �ϼƽ�2.51��
+LPLINE 2 362 575 362 1
+UNDERLINE OFF
+TEXT 1 0 137 392 ��ӭ���٣�лл��ˣ�
+PRINT
+
+/
+
+8
+4
+�
+�
+可
+�
+�
+K
+�
+! 0 200 200 600 1
+PAGE-WIDTH 576
+UNDERLINE OFF
+SETBOLD 5
+SETMAG 2 2
+TEXT 4 0 2 8 ���ϰ�
+UNDERLINE OFF
+SETBOLD 0
+SETMAG 1 1
+TEXT 1 0 2 112 �������ڣ�2019-06-21 10:00:09
+UNDERLINE OFF
+TEXT 1 
+0 2 142 ������ţ�6547654195170848768
+LPLINE 2 192 575 192 1
+UNDERLINE OFF
+TEXT 1 0 2 222 ���¿�����ˮ
+UNDERLINE OFF
+TEXT 1 0 306 222           �۸�2.51��
+LPLINE 2 282 575 282 1
+UNDERLINE OFF
+
+TEXT 1 0 2 312 �ϼ�������1��  �ϼƽ�2.51��
+LPLINE 2 362 575 362 1
+UNDERLINE OFF
+TEXT 1 0 137 392 ��ӭ���٣�лл��ˣ�
+PRINT
+
+text polygamy yes;cut
+text polygamy yes;align center;text center;size 6;text 鄻c
+text polygamy yes;align center;text center;size 6;text pljdu;cut
+text polygamy yes;align center;text center;size 6;text pljdu;cut
+reset;text polygamy yes;align center;text center;size 6;text pljdu;cut
+reset;text polygamy yes;align center;text center;size 6;text pljdu;texttype U;text ppp;cut
+reset;text polygamy yes;align center;text center;size 6;text pljdu;texttype U;size 3text ppp;cut
+reset;text polygamy yes;align center;text center;size 6;text pljdu;texttype U;size 3;text ppp;cut
+reset;text polygamy yes;align center;text center;size 6;text pljdu;size 4;texttype u;text ppp;cut
+reset;text polygamy yes;align center;text center;text right;size 6;text pljdu;size 4;texttype u;text ppp;cut
+text arf;set right 6 U;text p;text Q;set center 2 normal;text h;cut
+text arf;;set right 6 U;;text p;;text Q;;set center 2 normal;;text h;;cut
+line;;text a;;set right 3 normal;;text b;;text c;;line;;cut
+line;;text a;;set right 3 normal;;text b;;text c;;line;;cut
+line;;text a;;set right 3 normal;;text b;;text c;;line;;cut
+line;;text a;;set right 3 normal;;text b;;text c;;line;;text d;;cut
+text 鄻;c
+what the faq

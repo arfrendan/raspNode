@@ -21,10 +21,10 @@ function BarcodeScannerService() {
       characteristics: [
           
           new BluetoothSubscribeCharacteristic(),
-          new MerchandiseListCharacteristic(),
-          new MerchandiseWriteCharacteristic(),
-          new PrinterCharacteristic(),
-          new TTSCharacteristic()
+          //new MerchandiseListCharacteristic(),
+          //new MerchandiseWriteCharacteristic(),
+          //new PrinterCharacteristic(),
+          //new TTSCharacteristic()
       ]
   });
 }

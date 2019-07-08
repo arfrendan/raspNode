@@ -28,7 +28,7 @@ MerchandiseWriteCharacteristic.prototype.onWriteRequest = function(data, offset,
                             var request = data.toString("utf-8")
                             console.log('Write request: ' + request);
                             switch(request){
-                                case 'clearin':
+                                case 'clear':
                                     fs.unlink('input.txt',function(err){
                                         if(err){
                                             console.err(err)
@@ -63,7 +63,7 @@ MerchandiseWriteCharacteristic.prototype.onWriteRequest = function(data, offset,
                                     break;
                                     
                                 default:
-                                    fs.appendFile('/home/pi/test/output.txt', request+';',function(err){
+                                    fs.appendFile('/home/pi/test/input.txt', request+'\n',function(err){
                                         if(err){
                                             console.err(err)
                                         }
